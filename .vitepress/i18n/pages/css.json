@@ -1,0 +1,25 @@
+{
+  "zh-CN": {
+    "basic": {
+      "children": [
+        {
+          "text": "css基础",
+          "link": "/css/"
+        },
+        {
+          "text": "盒子模型",
+          "link": "/css/盒子模型"
+        },
+        {
+          "text": "浮动",
+          "link": "/css/浮动"
+        },
+        {
+          "text": "定位",
+          "link": "/css/定位"
+        }
+      ]
+    }
+  },
+  "en-US": {}
+}

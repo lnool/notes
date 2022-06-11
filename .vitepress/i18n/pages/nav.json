@@ -1,0 +1,84 @@
+{
+  "zh-CN": [
+    {
+      "text": "首页",
+      "link": "/",
+      "activeMatch": "/"
+    },
+    {
+      "text": "课程",
+      "items": [
+        {
+          "text": "HTML",
+          "link": "zh-CN/html/",
+          "activeMatch": "/html/"
+        },
+        {
+          "text": "CSS",
+          "link": "zh-CN/css/",
+          "activeMatch": "/css/"
+        },
+        {
+          "text": "JavaScript",
+          "link": "zh-CN/javascript/01_JavaScript简介",
+          "activeMatch": "/javascript/"
+        },
+        {
+          "text": "ES6",
+          "link": "zh-CN/es6/",
+          "activeMatch": "/es6/"
+        },
+        {
+          "text": "TypeScript",
+          "link": "zh-CN/ts/",
+          "activeMatch": "/ts/"
+        },
+        {
+          "text": "Node",
+          "link": "zh-CN/node/",
+          "activeMatch": "/node/"
+        },
+        {
+          "text": "webpack",
+          "link": "zh-CN/webpack/",
+          "activeMatch": "/webpack/"
+        },
+        {
+          "text": "Vue2",
+          "link": "zh-CN/vue2/",
+          "activeMatch": "/vue2/"
+        },
+        {
+          "text": "Vue3",
+          "link": "zh-CN/vue3/",
+          "activeMatch": "/vue3/"
+        },
+        {
+          "text": "微信小程序",
+          "link": "zh-CN/nimiprogram/",
+          "activeMatch": "/nimiprogram/"
+        },
+        {
+          "text": "uniapp",
+          "link": "zh-CN/uniapp/",
+          "activeMatch": "/uniapp/"
+        },
+        {
+          "text": "React",
+          "link": "zh-CN/react/",
+          "activeMatch": "/react/"
+        }
+      ]
+    },
+    {
+      "text": "工具",
+      "items": [
+        {
+          "text": "node",
+          "link": "zh-CN/tools/node",
+          "activeMatch": "/node/"
+        }
+      ]
+    }
+  ]
+}
