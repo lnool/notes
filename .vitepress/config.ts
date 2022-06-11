@@ -11,6 +11,7 @@ export default defineConfigWithTheme<VuetomThemeConfig>({
   base: '/',
   title: '前端知识库',
   description: 'Theme For Vitepress',
+  outDir: 'dist',
   head,
   themeConfig: {
     // 展示搜索框
