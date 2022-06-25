@@ -118,9 +118,9 @@
 
   - ```typescript light
     let 变量: 类型;
-
+    
     let 变量: 类型 = 值;
-
+    
     function fn(参数: 类型, 参数: 类型): 类型{
         ...
     }
@@ -245,14 +245,14 @@
     Blue,
   }
   let c: Color = Color.Green;
-
+  
   enum Color {
     Red = 1,
     Green,
     Blue,
   }
   let c: Color = Color.Green;
-
+  
   enum Color {
     Red = 1,
     Green = 2,
@@ -339,9 +339,9 @@
 
 - TS 中属性具有三种修饰符
 
-  - public（默认值），可以在类、子类和对象中修改
-  - protected ，可以在类、子类中修改
-  - private ，可以在类中修改
+  - public（默认值），可以在类、子类和对象中访问
+  - protected ，可以在类、子类中访问
+  - private ，可以在类中访问
 
 示例：
 
@@ -529,27 +529,27 @@
   class Animal {
     name: string;
     age: number;
-
+  
     constructor(name: string, age: number) {
       this.name = name;
       this.age = age;
     }
-
+  
     run() {
       console.log(`父类中的run方法！`);
     }
   }
-
+  
   class Dog extends Animal {
     bark() {
       console.log(`${this.name}在汪汪叫！`);
     }
-
+  
     run() {
       console.log(`子类中的run方法，会重写父类中的run方法！`);
     }
   }
-
+  
   const dog = new Dog('旺财', 4);
   dog.bark();
   ```
@@ -588,11 +588,11 @@
     name: string;
     sayHello(): void;
   }
-
+  
   function fn(per: Person) {
     per.sayHello();
   }
-
+  
   fn({
     name: '孙悟空',
     sayHello() {
@@ -608,10 +608,10 @@
     name: string;
     sayHello(): void;
   }
-
+  
   class Student implements Person {
     constructor(public name: string) {}
-
+  
     sayHello() {
       console.log('大家好，我是' + this.name);
     }
@@ -692,7 +692,7 @@ function test(arg: any): any {
     interface MyInter {
       length: number;
     }
-
+    
     function test<T extends MyInter>(arg: T): number {
       return arg.length;
     }
