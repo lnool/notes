@@ -17,11 +17,11 @@
         },
         {
           "text": "对象",
-          "link": "/javascript/03_对象"
+          "link": "/javascript/04_对象"
         },
         {
           "text": "函数",
-          "link": "/javascript/04_函数"
+          "link": "/javascript/05_函数"
         },
         {
           "text": "内置对象",
@@ -29,31 +29,31 @@
         },
         {
           "text": "正则表达式",
-          "link": "/javascript/06_正则表达式"
+          "link": "/javascript/07_正则表达式"
         },
         {
           "text": "DOM",
-          "link": "/javascript/07_DOM"
+          "link": "/javascript/08_DOM"
         },
         {
           "text": "事件",
-          "link": "/javascript/08_事件"
+          "link": "/javascript/09_事件"
         },
         {
           "text": "BOM",
-          "link": "/javascript/09_BOM"
+          "link": "/javascript/10_BOM"
         },
         {
           "text": "定时器",
-          "link": "/javascript/10_定时器"
+          "link": "/javascript/11_定时器"
         },
         {
           "text": "JSON",
-          "link": "/javascript/11_JSON"
+          "link": "/javascript/12_JSON"
         },
         {
           "text": "Ajax",
-          "link": "/javascript/12_Ajax"
+          "link": "/javascript/13_Ajax"
         }
       ]
     },
