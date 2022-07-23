@@ -19,6 +19,16 @@
           "activeMatch": "/css/"
         },
         {
+          "text": "HTML5",
+          "link": "zh-CN/html5/",
+          "activeMatch": "/html5/"
+        },
+        {
+          "text": "CSS3",
+          "link": "zh-CN/css3/",
+          "activeMatch": "/css3/"
+        },
+        {
           "text": "JavaScript",
           "link": "zh-CN/javascript/01_JavaScript简介",
           "activeMatch": "/javascript/"
